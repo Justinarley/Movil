@@ -125,7 +125,7 @@ class _MyAppFrontState extends State<MyAppFront> {
                           borderRadius: BorderRadius.circular(20.0),
                         ),
                       ),
-                      child: const Text("Salir"),
+                       child: const Text("Salir", style: TextStyle(color: Colors.white)),
                     ),
                     ElevatedButton(
                       onPressed: () {},
@@ -136,7 +136,7 @@ class _MyAppFrontState extends State<MyAppFront> {
                           borderRadius: BorderRadius.circular(20.0),
                         ),
                       ),
-                      child: const Text("Siguiente"),
+                       child: const Text("Siguiente", style: TextStyle(color: Colors.white)),
                     ),
                   ],
                 ),
